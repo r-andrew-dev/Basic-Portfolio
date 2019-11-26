@@ -2,9 +2,18 @@
     box-sizing: border-box;
 }
 
+html {
+    position: relative;
+    min-height: 100%
+
+}
+
 header {
-    background-color: whitesmoke;
-    width: 100%
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 h1 {
@@ -29,21 +38,15 @@ li {
 }
 
 body {
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    position: absolute;
-    background-repeat: repeat;
-    overflow-x: scroll;
     background-image: url(../images/weather.png);
-    background-color: maroon;
     background-size: cover;
-    
+    background-repeat: repeat;
+    background-color: maroon;
 }
 
 div {
     background-color: white;
-    margin-top: 20px;
+    margin-top: 150px;
     margin-left: 100px;
     margin-right: 100px;
     clear: both;
@@ -61,6 +64,26 @@ hr {
     margin: 15px;  
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #848484;
+    padding-top: 20px;
+    font-size: 10px;
+    color: white;
+    overflow: hidden;
+
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -68,8 +91,8 @@ hr {
 }
 
 img {
-    height: 200px;
-    width: auto;
+    width: 200px;
+    height: auto;
     float: left;
     margin: 15px;
 }
@@ -77,8 +100,6 @@ img {
 #profilecontainer {
     margin-left: 100px;
     width: 960px;
-
-
 }
 
 #profile {
@@ -86,4 +107,19 @@ img {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 2.0;
     margin: 15px;
+}
+
+form {
+    margin: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px;
+    background: #4aaaa5;
 }
