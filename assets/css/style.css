@@ -48,13 +48,6 @@ li {
     color: #898B90;
 }
 
-div {
-    background-color: white;
-    margin: 150px 100px 150px 100px;
-    clear: both;
-    overflow: auto;
-}
-
 h2 {
     color: #4aaaa5;
     padding: 30px;
@@ -124,7 +117,7 @@ label {
     display: block;
 }
 
-img {
+#profile-image {
     width: 250px;
     height: auto;
     float: left;
@@ -136,6 +129,9 @@ img {
     width: 960px;
     border: 1px solid #dddddd;
     color: #ffffff;
+    background-color: white;
+    clear: both;
+    overflow: auto;
 }
 
 
