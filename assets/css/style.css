@@ -6,10 +6,10 @@ html {
     position: relative;
     min-height: 100%;
     margin: 0px;
-    background-image: url(../images/white-waves.png);
+    background-image: url(../images/cloudy-day.png);
     background-size: cover;
     background-attachment: fixed;
-    background-color: white;
+    background-color: maroon;
 }
 
 header {
@@ -69,9 +69,8 @@ footer {
     text-align: center;
     background: #666666;
     padding-top: 20px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    font-size: 12px;
+    padding-bottom: 5px;
+    font-size: 10px;
     color: white;
     overflow: hidden;
     border-top: 5px solid #4aaaa5;
@@ -132,15 +131,7 @@ label {
     color: #ffffff;
     background-color: white;
     clear: both;
-    /* overflow: hidden; */
-}
-
-#portfolio-container {
-    height: auto;
-}
-
-#contact-container {
-    margin-bottom: 300px;
+    overflow: auto;
 }
 
 
@@ -164,8 +155,6 @@ input, textarea {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 15px;
-    padding: 10px;
-    font-size: 15px;
 }
 
 button {
