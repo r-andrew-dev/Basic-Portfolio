@@ -30,7 +30,7 @@ h1 {
     color: white;
     padding: 30px; 
     background-color: #4aaaa5;
-    margin-left: 245px;
+    margin-left: 160px;
     font-weight: bold;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
@@ -38,7 +38,7 @@ h1 {
 ul {
     text-align: right;
     list-style-type: none;
-    margin-right: 245px;
+    margin-right: 160px;
     margin-top: 40px;  
 }
 
