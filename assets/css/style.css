@@ -100,7 +100,9 @@ a:visited {
         font-size: 18px;
         color: gray;
         padding: 5px;
-    }
+    
+}
+
 a:active {
     font-size: 24px;
     font-weight: bold;
@@ -108,7 +110,6 @@ a:active {
     padding: 10px;
 
 }
-
 
 label {
     color: #777777;
@@ -126,6 +127,7 @@ label {
     height: auto;
     float: left;
     margin: 30px;
+    margin-bottom: 0;
 }
 
 #profile-container, #portfolio-container, #contact-container {
@@ -142,7 +144,6 @@ label {
     margin-top: 150px;
     margin-bottom: 400px;
 }
-
 
 .profile {
     font-size: 16px;
@@ -200,5 +201,31 @@ button:focus {
 .sideborder {
     border-right: 1px inset lightgray;
     padding-right: 2px;
+}
+
+.portfolio-image {
+    float: left;
+    margin: 30px;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 280px;
+  margin-right: 60px;
+}
+
+.text {
+    position: absolute;
+    z-index: 999;
+    background: #4aaaa5;
+    left: 30px;
+    top: 150px;
+    padding: 20px;
+    font-size: 24px;
+    width: 100%;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 
